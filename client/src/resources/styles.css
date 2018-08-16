@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    transition: all 0.5s ease-in-out;
+}
+
+.logo-penta{
+    
+    height: 50px;
+}
+
+.header_logo{
+    line-height: 50px;
+    display: flex;
+}
+
+.header_logo_title{
+    vertical-align: middle;
+}
+
+.co-op-name{
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    transform: translateX(-23%);
+
+}
+.wrapper{
+    
+    width: 100%;
+    max-width: 600px;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    z-index: 3;
+}
+.black-logo{
+
+    width: 700px;
+
+}
+
+.countdown_wrapper {
+    position:absolute;
+    bottom: 0px;
+    color:#ffffff;
+}
+
+.countdown_wrapper .countdown_top {
+    background: #271F13;
+    font-size: 19px;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.countdown_wrapper .countdown_bottom {
+    display: flex;
+    background: linear-gradient(277.18deg, #271F13 0.41%, #FABE13 93.91%);;
+    padding: 10px 20px;
+}
+
+.countdown_wrapper .countdown_time {
+    font-size: 70px;
+    border-right: 1px solid #271F13;
+    margin-right: 14px;
+    padding-right: 49px;
+}
+.countdown_wrapper .countdown_item:last-child .countdown_time{
+    border:none;
+}
+
+.countdown_wrapper .countdown_tag {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 7px;
+}
+
+.title-section{
+  
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 67px;
+    letter-spacing: 0.18em;
+    color: #271F13;  
+    text-transform: uppercase;
+}
+.text-container{
+    width: 610px;
+    margin-right: 25px;
+}
+.text-about-us{
+    line-height: 31px;
+    font-size: 18px;
+    color: #271F13;
+}
+
+.underline{
+    margin-top: 25px; 
+    margin-bottom: 25px;
+    width: 250px;
+    background: linear-gradient(132.69deg, #271F13 0.54%, #FBBF10 63.39%, #FFD65F 98.92%);
+    height: 3px;
+}
+.container-about{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.button-container{
+    margin-top: 75px;
+    text-align-last: left;
+}
+.image-container{
+    position: relative;
+}
+.layer-image{
+    width: 554px;
+    height: 356px;
+    background-color: #fddf88;
+    position: absolute;
+    top: -18px;
+    z-index: -1;
+    right: 15x;
+    right: -30px; 
+}
+.MuiPaper-root-9{
+    width: 320px;
+}
+.team{
+    margin-top: 5px;
+}
+
+.innerbtn{
+    background-image: -webkit-linear-gradient(132.69deg, #271F13 0.54%, #FBBF10 63.39%, #FFD65F 98.92%); /* For Chrome and Safari */
+     background-image:    -moz-linear-gradient(132.69deg, #271F13 0.54%, #FBBF10 63.39%, #FFD65F 98.92%); /* For old Fx (3.6 to 15) */
+     background-image:     -ms-linear-gradient(132.69deg, #271F13 0.54%, #FBBF10 63.39%, #FFD65F 98.92%); /* For pre-releases of IE 10*/
+     background-image:      -o-linear-gradient(132.69deg, #271F13 0.54%, #FBBF10 63.39%, #FFD65F 98.92%); /* For old Opera (11.1 to 12.0) */
+     background-image:         linear-gradient(132.69deg, #271F13 0.54%, #FBBF10 63.39%, #FFD65F 98.92%); /* Standard syntax; must be last */
+     color:transparent;
+     -webkit-background-clip: text;
+     background-clip: text;
+     margin-top: 12px;
+ }
+ .buton:hover span .innerbtn{
+   color:#FFF;
+ }
+ .buton {
+   
+     background-image:linear-gradient(132.69deg, #271F13 0.54%, #FBBF10 63.39%, #FFD65F 98.92%);
+     border-radius: 40px;
+     box-sizing: border-box;
+ 
+     display: block;
+     font: 1.125rem 'Oswald', Arial, sans-serif; /*18*/
+     
+     letter-spacing: 1px;
+     margin: 0 auto;
+     padding: 4px;
+     position: relative;
+     text-decoration: none;
+     text-transform: uppercase;
+     width: 358px;
+     height: 62px;
+     z-index: 2;
+ }
+ 
+ .buton:hover {
+     color: #fff;
+ }
+ 
+ .buton span {
+     align-items: center;
+     background: #fff;
+     border-radius: 40px;
+     display: flex;
+     
+     justify-content: center;
+     height: 100%;
+     transition: background .5s ease;
+     width: 100%;
+ }
+
+ .buton:hover span {
+     background: transparent;
+ }
+
+ .container{
+     
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .contact-container{
+     margin-top: 150px;
+ }
+
+ .contact-section{
+     display: flex;
+     justify-content: center;
+     margin-top: 250px;
+ }
+
+
+ .form-container{
+     width: 600px;
+ }
+
+textarea{
+    height: 450px;
+}
+
+@media screen and (max-width:1200px){
+    .container-about{
+        width: 600px;
+        flex-direction: column;
+    }
+    .team{
+        margin-top: 50px;
+
+    }
+    .layer-image{
+       display: none; 
+    }
+    .black-logo{
+        width: 430px;
+    }
+} 
+@media screen and (max-width:727px){
+    .countdown_wrapper .countdown_bottom {
+        flex-direction: column;
+    }
+}
+
+.carrousel_image{
+    background-attachment: fixed;
+}
